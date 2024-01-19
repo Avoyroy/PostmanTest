@@ -56,6 +56,7 @@
 									"//console.log(response.status_code)\r",
 									"pm.test(\"Status code is 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
+									"    console.log(\"hello\")\r",
 									"})"
 								],
 								"type": "text/javascript"
